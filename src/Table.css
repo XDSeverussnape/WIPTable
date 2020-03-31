@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+}
+
+table > thead > tr > th {
+  border: 1px solid black;
+  padding: 14px 4px 14px 4px;
+  border-radius: 10px;
+  background-color: rgb(182, 182, 253);
+}
+table > tbody > tr > td {
+  border: 1px solid black;
+  padding: 4px;
+  text-align: center;
+  border-radius: 10px;
+}
+tr:nth-child(even) {
+  background-color: #fdf0b7;
+}
+tr:nth-child(odd) {
+  background-color: rgb(253, 193, 182);
+}
